@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Vault Prompt</title>
+    <link rel="stylesheet" href="./vault2.css" />
+    <script type="text/javascript">   
+        function show() {   
+            var value = prompt("Enter your Name : ", "Enter your name");   
+            document.write("Your Name is : " + value);   
+        }   
+    </script>   
+    <script src="vault2.js"></script>
+    <script type="text/javascript">   
+        function show() {   
+            var con = confirm ("The sum is " + (num1  + num2  + num3) + " you sicko");   
+            if(con == true) {   
+                document.write ("Hooray!");   
+            }    
+            else {   
+                document.write ("quitter");   
+            }   
+        }   
+    </script>
+       
+  </head>
+
+  <body>
+    <section>   
+        <h1>Sup Hamburglar</h1>   
+        <h2>You burger stealin' son of a gun</h2>   
+        <p>Click to see sum of combo numbers </p>   
+        <input type="button" value="GET SUM" onclick="show();" />   
+    </section>   
+    
+  </body>
+</html>
